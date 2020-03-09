@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-yarn create react-app my-project --template cra-template-lukin
+yarn create react-app my-project --template lukin
 ```
 
 ## License
