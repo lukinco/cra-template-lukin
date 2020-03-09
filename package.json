@@ -1,12 +1,15 @@
 {
-  "name": "cra-template-lukin",
+  "name": "@lukinco/cra-template-lukin",
   "version": "0.1.0",
+  "description": "The Lukin Co. template for Create React App.",
+  "scripts": {
+    "postversion": "npm publish --access=public"
+  },
   "keywords": [
     "react",
     "create-react-app",
     "template"
   ],
-  "description": "The Lukin Co. template for Create React App.",
   "main": "template.json",
   "repository": {
     "type": "git",
