@@ -1,0 +1,57 @@
+{
+  "package": {
+    "scripts": {
+      "start": "rescripts start",
+      "build": "rescripts build",
+      "test": "rescripts test",
+      "lint:fix": "standard --fix | snazzy",
+      "storybook": "start-storybook -p 9009 -s storybook-public",
+      "storybook:build": "build-storybook -s storybook-public"
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "4.2.4",
+      "@testing-library/react": "9.3.2",
+      "@testing-library/user-event": "7.1.2",
+      "polished": "3.4.4",
+      "styled-components": "5.0.1",
+      "@rescripts/cli": "0.0.13",
+      "@rescripts/rescript-env": "0.0.11",
+      "@storybook/addon-actions": "5.3.14",
+      "@storybook/addon-links": "5.3.14",
+      "@storybook/addons": "5.3.14",
+      "@storybook/preset-create-react-app": "2.0.0",
+      "@storybook/react": "5.3.14",
+      "eslint-config-standard": "14.1.0",
+      "eslint-config-standard-react": "9.2.0",
+      "eslint-plugin-import": "2.20.1",
+      "eslint-plugin-node": "11.0.0",
+      "eslint-plugin-only-warn": "1.0.2",
+      "eslint-plugin-promise": "4.2.1",
+      "eslint-plugin-react": "7.19.0",
+      "eslint-plugin-standard": "4.0.1",
+      "snazzy": "8.0.0",
+      "standard": "14.3.1"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "standard",
+        "standard-react"
+      ],
+      "plugins": [
+        "only-warn"
+      ]
+    },
+    "rescripts": [
+      "env"
+    ],
+    "standard": {
+      "parser": "babel-eslint",
+      "globals": [
+        "fetch",
+        "test",
+        "expect"
+      ]
+    }
+  }
+}

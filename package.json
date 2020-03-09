@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-lukin",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "The Lukin Co. template for Create React App.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukinco/cra-template-lukin.git",
+    "directory": "cra-template-lukin"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/lukinco/cra-template-lukin/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
