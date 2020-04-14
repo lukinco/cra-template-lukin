@@ -1,6 +1,6 @@
 {
   "name": "@lukinco/cra-template-lukin",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "The Lukin Co. template for Create React App.",
   "scripts": {
     "postversion": "npm publish --access=public"
